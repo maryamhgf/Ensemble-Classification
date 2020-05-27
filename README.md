@@ -8,8 +8,8 @@ score(Xi , k) = Betha(k, 0) * Length(i) + Betha(k, 1) * Width(i) + Bias(k)
 
 k is the number of base classifier and Xi is the ith sample.
 
-Validation folder contains test data.
+Validation folder contains validation data.
 
-The accuracy of model is for the test data is: 97.2%
+The accuracy of model for the test data is: 97.2%
 
-After compiling the code with g++ compiler you shoud type this command to give the dataset to the program: ./execuate.out Assets/validation Assets/weight_vector
+After compiling the code with g++ compiler, you shoud type this command to give the dataset to the program: ./execuate.out Assets/validation Assets/weight_vector
